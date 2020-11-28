@@ -71,7 +71,7 @@ var config = {
 			config: {
 				location: "Houston",
 				locationID: "", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				appid: "e502ef3373e0f8ce33bf8aade934f8d4"
 			}
 		},
 		{
@@ -81,7 +81,7 @@ var config = {
 			config: {
 				location: "Houston",
 				locationID: "2646507", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				appid: "e502ef3373e0f8ce33bf8aade934f8d4"
 			}
 		},
 		{
