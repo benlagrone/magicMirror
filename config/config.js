@@ -76,7 +76,7 @@ var config = {
 		},
 		{
 			module: "weatherforecast",
-			position: "top_right",
+			position: "bottom_right",
 			header: "Weather Forecast",
 			config: {
 				location: "Houston",
