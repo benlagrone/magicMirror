@@ -44,7 +44,7 @@ var config = {
 			config: {
 				// See 'Configuration options' for more information.
 				location: "Houston,US",
-				locationID: "", //Location ID from http://bulk.openweathermap.org/sample/city.list.json.gz
+				locationID: "2646507", //Location ID from http://bulk.openweathermap.org/sample/city.list.json.gz
 				appid: "e502ef3373e0f8ce33bf8aade934f8d4", //openweathermap.org API key.
 				preferences: [
 					{
