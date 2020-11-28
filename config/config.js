@@ -40,7 +40,7 @@ var config = {
 	modules: [
 		{
 			module: "MMM-WeatherDependentClothes",
-			position: "center_right", // This can be any of the regions.
+			position: "bottom_left", // This can be any of the regions.
 			config: {
 				// See 'Configuration options' for more information.
 				location: "Houston,USA",
