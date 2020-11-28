@@ -39,6 +39,26 @@ var config = {
 
 	modules: [
 		{
+			module: "MMM-WeatherDependentClothes",
+			position: "center_right", // This can be any of the regions.
+			config: {
+				// See 'Configuration options' for more information.
+				location: "Houston,USA",
+				locationID: "", //Location ID from http://bulk.openweathermap.org/sample/city.list.json.gz
+				appid: "e502ef3373e0f8ce33bf8aade934f8d4", //openweathermap.org API key.
+				preferences: [
+					{
+						name: "Winter jacket",
+						icon: "jacket-cold",
+						conditions: {
+						temp_max: 2.0,
+						}
+					},
+					// more items here. See .js for default list
+				]
+			}
+		},
+		{
 			module: "alert",
 		},
 		{
