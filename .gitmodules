@@ -1,0 +1,3 @@
+[submodule "modules/default/MMM-WeatherDependentClothes"]
+	path = modules/default/MMM-WeatherDependentClothes
+	url = https://github.com/fruestueck/MMM-WeatherDependentClothes.git
