@@ -39,26 +39,6 @@ var config = {
 
 	modules: [
 		{
-			module: "MMM-WeatherDependentClothes",
-			position: "bottom_left", // This can be any of the regions.
-			config: {
-				// See 'Configuration options' for more information.
-				location: "Houston,US",
-				locationID: "2646507", //Location ID from http://bulk.openweathermap.org/sample/city.list.json.gz
-				appid: "e502ef3373e0f8ce33bf8aade934f8d4", //openweathermap.org API key.
-				preferences: [
-					{
-						name: "Winter jacket",
-						icon: "jacket-cold",
-						conditions: {
-						temp_max: 2.0,
-						}
-					},
-					// more items here. See .js for default list
-				]
-			}
-		},
-		{
 			module: "alert",
 		},
 		{
@@ -90,7 +70,7 @@ var config = {
 			position: "top_right",
 			config: {
 				location: "Houston",
-				locationID: "", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				locationID: "2646507", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
 				appid: "e502ef3373e0f8ce33bf8aade934f8d4"
 			}
 		},
@@ -120,6 +100,26 @@ var config = {
 				broadcastNewsUpdates: true
 			}
 		},
+		{
+			module: "MMM-WeatherDependentClothes",
+			position: "bottom_left", // This can be any of the regions.
+			config: {
+				// See 'Configuration options' for more information.
+				location: "Houston",
+				locationID: "2646507", //Location ID from http://bulk.openweathermap.org/sample/city.list.json.gz
+				appid: "e502ef3373e0f8ce33bf8aade934f8d4", //openweathermap.org API key.
+				preferences: [
+					{
+						name: "Winter jacket",
+						icon: "jacket-cold",
+						conditions: {
+						temp_max: 2.0,
+						}
+					},
+					// more items here. See .js for default list
+				]
+			}
+		}
 	]
 };
 
